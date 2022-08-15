@@ -1,0 +1,240 @@
+html
+{
+    scroll-behavior: smooth;
+}
+:root
+{
+    --text-color :#fff;
+}
+body
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#home
+{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.home-overlay
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;   
+    }
+.header-text h2
+{
+color: var(--text-color);
+font-size: 60px;
+
+}  
+.header-text p
+{
+    color: var(--text-color);
+}
+.side-nav 
+{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+}
+.nav
+{
+    width: 65%;
+    padding: 30px 0;
+    background-color: #414658;
+    
+}
+.open-nav
+{
+    width: 35%;
+    color: var(--text-color);
+    font-size:30px;
+    cursor: pointer;
+    
+}
+.nav a[href] 
+{
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 20px 8px 20px 32px;
+    font-size: 18px;
+}
+.close
+{
+    top: 30px;
+    right: 30px;
+    font-size: 22px;
+    text-decoration: none;
+    color: var(--text-color);
+    cursor: pointer;
+    
+}
+.nav a:hover
+{
+    color: #D62E33
+}
+@media only screen and (max-width:992px) {
+   
+    .home-overlay .side-nav .open-nav {
+      font-size: 25px;
+    }
+  
+  }
+  @media only screen and (max-width:767px) {
+   
+  
+    .home-overlay .side-nav .open-nav {
+        font-size: 20px;
+      }
+  } 
+  
+@media only screen and (max-width: 600px) {
+   
+    .home-overlay .side-nav {
+      width: 60%;
+    }
+    .home-overlay .side-nav .close {
+        font-size: 16px;
+      }
+      .home-overlay .side-nav .nav a[href]{
+        font-size: 16px;
+      } 
+      .home-overlay .side-nav .nav{
+        display: flex;
+        justify-content: flex-start;
+      }
+  }
+#details
+{
+    padding: 100px 0;
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#details h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: var(--text-color);
+   
+}
+#details .disc
+{
+    padding: 10px;
+    background-color: #ccc;
+    margin-bottom: 0;
+    display: none;
+}
+#countTime
+{
+    background-image: url(../images/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.overlay
+{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+  
+}
+.time
+{
+     padding: 50px; 
+    border: 1px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time h3
+{
+    color: var(--text-color);
+    font-size: 24px;
+}
+
+#contact
+{
+    padding: 100px 0;
+}
+.head-text h2 
+{
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.head-text p
+{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+}
+strong
+{
+    font-weight: 700;
+    font-size: 18px;
+}
+.col-md-6 p
+{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+.icons .red
+{
+    color: #D62E33
+}
+.social-icons
+{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.social-icons:hover
+{
+    background-color: #D62E33;
+   
+}
+.social-icons:hover.social-icons i
+{
+color: #fff;
+}
+.social-icons i
+{
+    color: #777
+}
+#char
+{
+    color: #D62E33;
+    font-size: 21px;
+    
+}
+.message-btn
+{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+.message-btn:hover
+{
+    color: #fff;
+}
